@@ -21,5 +21,7 @@ $nepal=new Nepal();
 $nepal->set_city('Kathmandu');
 $nepal->set_zipcode('33748');
 echo $nepal->get_city().'<br>';
-echo $nepal->get_zipcode();
+echo $nepal->get_zipcode().'<br>';
+
+var_dump($nepal instanceof Nepal);
 ?>
